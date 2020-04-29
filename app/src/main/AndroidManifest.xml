@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tsuyoshi.englishwordtraining">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".Contact"
+            android:label="お問い合わせ"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".HowToUse"
+            android:label="使い方"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".WordRegist"
+            android:label="単語登録"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".TestSample"
+            android:label="単語リスト"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WordTest"
+            android:label="単語テスト"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".AddCategory"
+            android:label="カテゴリ追加"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".EditCategory"
+            android:label="カテゴリ編集"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="設定"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".SelectTest"
+            android:label="カテゴリ選択"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Statics"
+            android:label="統計"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Premium"
+            android:label="プレミアム版"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ImageRegist"
+            android:label="画像登録"
+            android:theme="@style/AppTheme2" />
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">単語覚え帳</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="data_loading">データを取得しています</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="list_menu_item1">新着順</string>
+    <string name="list_menu_item2">アルファベット順</string>
+    <string name="list_menu_item3">登録順</string>
+
+    <string name="drawer_open">登録順</string>
+    <string name="drawer_close">登録順</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+
+    <string name="Contact">
+        \n
+        要望や質問などは、\n
+        以下よりお問い合わせください。\n
+    </string>
+
+    <string name="Contact2">
+        　※誹謗中傷等の礼儀の無いメールには\n
+        　お答えしませんのであらかじめご了承ください。
+    </string>
+
+    <string name="TestEnd">
+        \n
+        今日の問題は終了です。\n
+        お疲れ様でした。\n
+    </string>
+
+    <string name="HowUse">
+        \n
+        <u><b>単語登録画面 </b></u>\n
+        単語とその単語のカテゴリ、説明文を入力して、\n
+        単語登録ボタンを押してください。\n
+        \n
+        登録した単語は２回目のテストからテストできます。\n
+        \n
+        フリー版は15個まで登録可能です。\n
+        プレミアム版（１００円）には制限はありません。\n
+        \n\n
+        <u><b>単語テスト画面 </b></u>\n
+        勉強法がシステム化されていますので\n
+        自動で今日やる問題が抽出されます。\n
+        \n
+        まず単語を見て、意味を思い浮かべます。\n
+        そして解答表示ボタンを押して解答を確認します。\n
+        \n
+        覚えてたら覚えたボタン、\n
+        覚えてないなら覚えてないボタンを押します。\n
+        \n\n
+        <u><b>単語リスト画面 </b></u>\n
+        単語を押すとその説明が表示されます。\n
+        \n
+        また、単語の説明を長押しすることで、\n
+        編集や削除が可能です。\n
+        \n
+        次に右上のボタンにより、単語リストを新着順、\n
+        アルファベット順、登録順に切り替えることができます。\n
+        \n\n
+        <u><b>カテゴリ追加画面 </b></u>\n
+        カテゴリ名を入力して登録ボタンを押すと\n
+        カテゴリを追加できます。\n
+        \n\n
+        <u><b>カテゴリ編集画面</b></u>\n
+        カテゴリ名を長押しすることでカテゴリを編集できます。\n
+        \n\n
+        <u><b>設定画面画面</b></u>\n
+        現在はカテゴリ別にテストをするかどうかの切り替えのみ可能です。\n
+        \n\n
+        <u><b>テスト選択画面</b></u>\n
+        設定でカテゴリ別にテストする機能をONにして、\n
+        テスト画面にするとこの画面が最初に出てきます。\n
+        \n
+        この画面でカテゴリ名をタップするとカテゴリ別にテストが行えます。\n
+        \n\n
+        <u><b>お問い合わせ画面</b></u>\n
+        何かありましたら記載のメールアドレスにご連絡ください。
+        不躾なメールにはお答えしませんので予めご了承ください。\n
+        \n\n
+
+
+        <!--まずこのアプリはわんこら式という勉強法を元に制作しています。
+        この勉強法は制作者の私自身も受験時や今の勉強の仕方もそうですが、とてもお世話になっています。
+
+        また、この勉強法は東大生や京大生を多数輩出しており、
+        発案者である畠田和幸(はたけだかずゆき)さんは、
+        日本から１０名くらいしか採らない日本一の超最難関の大学院、数理解析研究所の筆記試験に合格なさっています。
+
+        詳しい勉強法についてはこちらをご覧ください。
+        http://wankora.blog31.fc2.com/blog-entry-1295.html
+        -->
+    </string>
+</resources>
